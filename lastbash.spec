@@ -12,7 +12,7 @@ URL:		http://lastbash.sourceforge.net
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-LastBASH is a console based Last.fm player
+LastBASH is a console based Last.fm player.
 
 %description -l pl
 LastBASH jest konsolowym odtwarzaczem dla Last.fm.
