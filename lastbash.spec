@@ -27,7 +27,7 @@ rm -rf $RPM_BUILD_ROOT
 	mandir=$RPM_BUILD_ROOT/usr/share/man \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm $RPM_BUILD_ROOT%{_datadir}/%{name}/{AUTHORS,ChangeLog,README,TODO,COPYING,INSTALL,VERSION}
+rm -rf $RPM_BUILD_ROOT%{_datadir}/lastbash
 
 %clean
 rm -rf $RPM_BUILD_ROOT
