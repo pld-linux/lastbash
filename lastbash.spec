@@ -1,12 +1,12 @@
 Summary:	A console player for Last.fm
 Summary(pl):	Konsolowy odtwarzacz dla Last.fm
 Name:		lastbash
-Version:	0.3.0
-Release:	0.1
+Version:	0.3.1
+Release:	1
 License:	GPL v2+
 Group:		Applications/Sound
 Source0:	http://dl.sourceforge.net/lastbash/%{name}-%{version}.tar.gz
-# Source0-md5:	c4c65bbb2d17b10db005e12abea85c00
+# Source0-md5:	fe4c5af28f3fa7704e8e7ae80ccbbba0
 URL:		http://lastbash.sourceforge.net
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
