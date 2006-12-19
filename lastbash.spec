@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		Applications/Sound
 Source0:	http://dl.sourceforge.net/lastbash/%{name}-%{version}.tar.gz
 # Source0-md5:	fe4c5af28f3fa7704e8e7ae80ccbbba0
-URL:		http://lastbash.sourceforge.net
+URL:		http://lastbash.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,8 +23,8 @@ LastBASH jest konsolowym odtwarzaczem dla Last.fm.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	prefix=/usr \
-	mandir=$RPM_BUILD_ROOT/usr/share/man \
+	prefix=%{_prefix} \
+	mandir=$RPM_BUILD_ROOT%{_mandir} \
 	DESTDIR=$RPM_BUILD_ROOT
 
 rm -rf $RPM_BUILD_ROOT%{_datadir}/lastbash
