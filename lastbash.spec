@@ -36,4 +36,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/%{name}
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/lastbash.config
 %{_mandir}/man1/*.1*
