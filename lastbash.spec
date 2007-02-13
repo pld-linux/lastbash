@@ -1,5 +1,5 @@
 Summary:	A console player for Last.fm
-Summary(pl.UTF-8):   Konsolowy odtwarzacz dla Last.fm
+Summary(pl.UTF-8):	Konsolowy odtwarzacz dla Last.fm
 Name:		lastbash
 Version:	0.3.1
 Release:	1
